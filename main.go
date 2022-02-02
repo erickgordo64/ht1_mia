@@ -111,7 +111,7 @@ func crearArchivo() {
 	miControl := control{PrimerEspacio: 1}
 
 	nodoRaiz := miEstructura{}
-	copy(nodoRaiz.Nombre[:], "201700471")
+	copy(nodoRaiz.Nombre[:], "201404319")
 	//Inicializamos todos los apuntadores de la estructura en -1
 	for i := 0; i < 5; i++ {
 		nodoRaiz.Apuntador[i] = -1
